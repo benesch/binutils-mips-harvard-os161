@@ -1,0 +1,17 @@
+Source: binutils-mips-harvard-os161
+Section: devel
+Priority: optional
+Maintainer: Nikhil Benesch <nikhil.benesch@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://os161.eecs.harvard.edu
+
+Package: binutils-mips-harvard-os161
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GNU assembler, linker and binary utilities for OS/161
+ The programs in this package are used to assemble, link and manipulate
+ binary and object files.  They may be used in conjunction with a compiler
+ and various libraries to build programs.
+ .
+ These programs have been configured for use with OS/161.
